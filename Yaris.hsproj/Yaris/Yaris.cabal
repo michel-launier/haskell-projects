@@ -1,0 +1,23 @@
+cabal-version: 1.22
+name: Yaris
+version: 1.0
+license: AllRightsReserved
+stability: experimental
+x-ghc-framework-version: 8.6.4-13.14-3
+x-last-ide-version: HfM1.8.2
+build-type: Simple
+
+executable Yaris
+    main-is: Main.hs
+    other-modules:
+        DataScience
+        Normalize
+        Json
+        Ai
+        Memory
+        Genetic
+        Fuzzy
+    default-language: Haskell2010
+    build-depends:
+        base -any,
+        sort -any

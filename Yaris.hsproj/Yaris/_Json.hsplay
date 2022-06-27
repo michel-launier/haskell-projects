@@ -1,0 +1,9 @@
+-- Haskell Playground 1.0
+truncate (22 % 7)
+
+isNull JNull
+
+
+renderJValue (JString "Fred")
+
+putJValue (JString "Barney")

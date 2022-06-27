@@ -1,0 +1,10 @@
+-- Haskell Playground 1.0
+
+subdivide (\a -> [0..a]) 5
+
+foldr (+) 0 [0..5]
+
+take 5 $ forAllIntegers (\x -> x*x)
+
+
+

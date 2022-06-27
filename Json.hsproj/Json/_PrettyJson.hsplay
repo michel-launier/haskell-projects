@@ -1,0 +1,5 @@
+-- Haskell Playground 1.0
+renderJValue (JBool True)
+renderJValue (JNumber 12.3)
+
+putJValue (JBool True)

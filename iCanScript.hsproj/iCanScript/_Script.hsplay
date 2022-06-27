@@ -1,0 +1,21 @@
+-- Haskell Playground 1.0
+v = Version 1 2 3
+
+major v
+
+
+
+vs = VariableSignature "var1" []
+
+vs { name = "barney" } :: VariableSignature
+
+
+
+
+
+
+
+
+
+
+

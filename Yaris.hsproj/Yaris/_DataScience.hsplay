@@ -1,0 +1,14 @@
+-- Haskell Playground 1.0
+let a = [0.1,0.2,0.3]
+let b = [0.4,0.2,0.5]
+
+sumCorrelation a b
+
+sumSquareError a b
+
+minLength a b
+
+
+
+
+

@@ -1,0 +1,12 @@
+-- Haskell Playground 1.0
+
+toFuzzy 10 20 15
+fromFuzzy 20 30 (toFuzzy 10 20 16)
+
+fuzzyLinear [(0,0.1),(0.2,0.2),(0.5,0.8),(1,0)] (FuzzyValue 0.95)
+
+fuzzyAnd (FuzzyValue 0.2) (FuzzyValue 0.3)
+
+remap 10 20 30 50 15
+remap 10 20 30 75 12
+

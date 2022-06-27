@@ -1,0 +1,5 @@
+-- Haskell Playground 1.0
+let a = Node "Fred" []
+
+Link "choice of" 0.1 a a
+ 

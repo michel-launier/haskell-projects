@@ -1,0 +1,10 @@
+-- Haskell Playground 1.0
+
+
+
+
+
+let a = createPopulation (Fred []) 3
+
+mutate (Fred [1,2,3])
+reproduce (Fred [1,2,3]) (Fred [4,5,6])

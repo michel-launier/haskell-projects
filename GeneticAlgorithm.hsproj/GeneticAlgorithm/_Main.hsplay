@@ -1,0 +1,17 @@
+-- Haskell Playground 1.0
+main
+
+f = newStdGen
+
+g <- f
+
+h <- newStdGen
+
+print . take 10 $ (randoms g :: [GeneOperation])
+
+print . take 10 $ (randoms h :: [GeneOperation])
+
+
+
+
+

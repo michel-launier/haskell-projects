@@ -1,0 +1,24 @@
+-- Haskell Playground 1.0
+normalize 10 20 15
+
+normalize2 (-1) 1 10 20 12
+
+remap (-1) 1 10 20 19.5
+
+boundedRatio 10 20 12
+
+ratio 10 20 22
+
+boundedRemap (-1) 1 10 20 19
+
+
+:t 'a'
+
+import Data.List
+
+(length . nub) [1,2,3,3]
+
+nub [1,2,3,3]
+
+
+

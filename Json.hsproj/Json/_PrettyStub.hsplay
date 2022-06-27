@@ -1,0 +1,4 @@
+-- Haskell Playground 1.0
+:type double
+
+take 2 simpleEscapes
